@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';  // <-Add here
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
@@ -23,6 +25,7 @@ import { DetailsComponent } from './details/details.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,  // <-Add here
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
